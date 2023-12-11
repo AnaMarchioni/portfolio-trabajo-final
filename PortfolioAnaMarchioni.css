@@ -47,18 +47,11 @@ body{
 
 }
 
-.contenido{
-    height: 1100px;
-    margin-top: 60px;
-
-}
-
 .contacto{
     color: white;
     display: inline-block;
     text-align: right;
     vertical-align: middle;
-    
     
 }
 
@@ -96,14 +89,12 @@ a{
     color: black;
     text-align: center;
     height: 100vp;
-
     
 }
 
 .seccion.detalles{
     display: grid;
     width: 1fr;
-
 }
 
 .nombre{
@@ -113,7 +104,6 @@ a{
     letter-spacing: 0.25em;
     color: black;
     margin-inline-start: 1em;
-
 }
 
 .declaracion{
@@ -123,7 +113,6 @@ a{
     margin-inline-end: 1.25em;
     margin-bottom: 30px;
     text-align: justify;
-
 }
 
 img{
@@ -202,6 +191,8 @@ img{
 
 /*-----------------media queri-------------------*/
 
+
+
 @media (max-width: 600px){
 
 .navbar{
@@ -209,7 +200,6 @@ img{
     padding-right: 30px;
 }
 }
-
 
 @media (max-width: 600px){
 
@@ -230,4 +220,13 @@ img{
   }
  }
 
- 
+ @media (max-width: 800px){
+
+.container-img{
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: auto;
+
+}
+
