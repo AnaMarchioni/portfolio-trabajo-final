@@ -61,6 +61,7 @@ body{
 
 a{
     color: white;
+    cursor: pointer;
 
 }
 
@@ -210,7 +211,7 @@ img{
   }
  }
 
- @media (max-width: 800px){
+@media (max-width: 800px){
 
 .container-img{
     width: 100%;
@@ -219,4 +220,6 @@ img{
     grid-template-rows: auto;
 
 }
+
+
 
